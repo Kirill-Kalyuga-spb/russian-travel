@@ -1,7 +1,7 @@
 .cover {
     position: relative;
     max-width: 1184px;
-    margin: 0 auto 92px;
+    margin: 0 0 92px;
 }
 
 .cover:hover .cover__overlay {

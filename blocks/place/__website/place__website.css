@@ -1,5 +1,5 @@
 .place__website {
-    min-width: 484px;
+    width: 1fr;
     margin-bottom: 48px;
     display: flex;
     flex-direction: column;

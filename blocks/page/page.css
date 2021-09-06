@@ -1,9 +1,31 @@
+/*@font-face {
+    font-family: Inter-Black;
+
+    src: url(../../fonts/Inter-Bold.otf);
+    src: url(../../fonts/Inter-ExtraBold.otf);
+    src: url(../../fonts/Inter-ExtraLight.otf);
+    src: url(../../fonts/Inter-Light.otf);
+    src: url(../../fonts/Inter-Medium.otf);
+    src: url(../../fonts/Inter-Regular.otf);
+    src: url(../../fonts/Inter-SemiBold.otf);
+    src: url(../../fonts/Inter-Thin.otf);
+    src: url(../../fonts/Inter-V.ttf);
+}
+
+@font-face {
+    font-family: Inter-Black;
+    src: url(../../fonts/Inter-Black.otf);
+    /*font-weight: 900;
+}*/
+
 .page {
     background: #2A2C2F;
     display: flex;
     min-width: 320px;
     max-width: 1280px;
+    padding: 0 48px 0;
     margin: 0 auto;
-    font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     flex-direction: column;
+    box-sizing: border-box;
 }

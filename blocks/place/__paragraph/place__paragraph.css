@@ -5,7 +5,11 @@
     line-height: 1.63;
     color: #FFFFFF;
 
-    max-width: 484px;
+    max-width: 1fr;
     margin-top: 0;
     margin-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+    margin-bottom: 0;
 }

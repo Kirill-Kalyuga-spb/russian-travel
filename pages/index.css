@@ -1,5 +1,9 @@
 @import url(../vendor/normalize.css);
 
+@import url('https://rsms.me/inter/inter.css');
+
+@import url(../blocks/page/page.css);
+
 @import url(../blocks/content/content.css);
 
 @import url(../blocks/cover/__background/cover__background.css);
@@ -29,14 +33,13 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/lead.css);
 
-@import url(../blocks/page/page.css);
-
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 
 @import url(../blocks/places/places.css);
 
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__container/place__container.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__title/place__title.css);
@@ -44,138 +47,4 @@
 @import url(../blocks/place/__website-link/place__website-link.css);
 @import url(../blocks/place/__website-url-heading/place__website-url-heading.css);
 
-
-@media all and (max-width: 1024px) {
-    .header {
-        margin-bottom: 48px;
-    }
-
-    .lead__subtitle {
-        margin-bottom: 56px;
-    }
-
-    .lead__image {
-        max-width: 928px;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 14px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .lead__image {
-        max-width: 100%;
-    }
-
-    .lead__caption {
-        margin-bottom: 88px;
-    }
-
-    .intro__list {
-        margin-bottom: 88px;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
-        margin: 0 24px 88px;
-    }
-
-    .place__title {
-        font-size: 42px;
-        line-height: 1.1;
-    }
-}
-
-@media all and (max-width: 320px) {
-    .header {
-        margin-bottom: 48px;
-        margin-top: 16px;
-    }
-
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 1.11;
-    }
-
-    .lead__title {
-        font-size: 40px;
-        line-height: 1.10;
-        margin-bottom: 16px;
-    }
-
-    .lead__subtitle {
-        margin-bottom: 40px;
-        font-size: 16px;
-        line-height: 1.25;
-    }
-
-    .lead__caption {
-        margin-bottom: 64px;
-    }
-
-    .intro__title {
-        font-size: 32px;
-        line-height: 1.09;
-    }
-
-    .intro__list {
-        margin-bottom: 64px;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 12px;
-        margin: 0 16px 64px;
-    }
-
-    .place__title {
-        margin-bottom: 32px;
-        font-size: 32px;
-        line-height: 1.09;
-    }
-
-    .place {
-        margin-bottom: 50px;
-    }
-
-    .place__image {
-        margin-bottom: 32px;
-    }
-
-    .cover__title {
-        font-size: 32px;
-        line-height: 1.09;
-    }
-
-    .cover__subtitle {
-        font-size: 14px;
-        line-height: 1.14;
-    }
-
-    .footer {
-        width: calc(100% - 32px);
-        flex-direction: column;
-    }
-
-    .footer__link {
-        display: flex;
-        margin-bottom: 32px;
-    }
-
-    .footer__copyright {
-        width: 100%;
-        text-align: left;
-    }
-}
-
-
-
-
-
-
-
-
-
+@import url(../media/media.css);
