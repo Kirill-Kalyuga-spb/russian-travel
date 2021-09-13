@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 
-@import url('https://rsms.me/inter/inter.css');
+/*@import url('https://rsms.me/inter/inter.css');*/
 
 @import url(../blocks/page/page.css);
 
@@ -46,5 +46,3 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website-link/place__website-link.css);
 @import url(../blocks/place/__website-url-heading/place__website-url-heading.css);
-
-@import url(../media/media.css);

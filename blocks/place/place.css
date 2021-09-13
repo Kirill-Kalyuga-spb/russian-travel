@@ -6,3 +6,15 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media all and (max-width: 1024px) {
+    .place {
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .place {
+        margin-bottom: 50px;
+    }
+}

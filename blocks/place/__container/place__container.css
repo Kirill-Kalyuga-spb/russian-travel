@@ -2,3 +2,9 @@
     display: flex;
     flex-direction: row;
 }
+
+@media all and (max-width: 735px) {
+    .place__container {
+        flex-direction: column;
+    }
+}

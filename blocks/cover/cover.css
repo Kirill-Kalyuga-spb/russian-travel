@@ -7,3 +7,19 @@
 .cover:hover .cover__overlay {
     opacity: 0.3;
 }
+
+@media all and (max-width: 1024px) {
+    .cover {
+        width: calc(100% + 96px);
+        position: relative;
+        left: -48px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cover {
+        width: calc(100% + 48px);
+        position: relative;
+        left: -24px;
+    }
+}

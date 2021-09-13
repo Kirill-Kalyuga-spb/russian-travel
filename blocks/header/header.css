@@ -3,3 +3,16 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media all and (max-width: 1024px) {
+    .header {
+        margin-bottom: 48px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .header {
+        margin-bottom: 48px;
+        margin-top: 16px;
+    }
+}

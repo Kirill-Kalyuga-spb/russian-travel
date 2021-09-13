@@ -7,3 +7,9 @@
     margin: auto;
     width: 100%;
 }
+
+@media all and (max-width: 425px) {
+    .cover__container {
+        top: calc(50% - 66px);
+    }
+}

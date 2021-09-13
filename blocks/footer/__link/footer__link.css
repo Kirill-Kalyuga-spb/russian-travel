@@ -1,4 +1,5 @@
 .footer__link {
+    font-family: 'Inter','Inter-Regular';
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -8,4 +9,11 @@
 
     margin: 0 18px 0 0;
     width: 50%;
+}
+
+@media all and (max-width: 735px) {
+    .footer__link {
+        display: flex;
+        margin-bottom: 32px;
+    }
 }
