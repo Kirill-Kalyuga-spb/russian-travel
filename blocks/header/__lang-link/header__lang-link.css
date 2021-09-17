@@ -6,16 +6,19 @@
     line-height: 1.17;
     text-align: right;
     color: #FFFFFF;
-    text-decoration: underline;
+    text-decoration: none;
 
     display: flex;
     flex-direction: row;
     align-self: center;
 }
 
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
 .header__lang-link:nth-child(2) {
     margin-left: 18px;
-    text-decoration: none;
 }
 
 @media all and (max-width: 425px) {
