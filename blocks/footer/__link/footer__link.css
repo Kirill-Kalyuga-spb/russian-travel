@@ -8,7 +8,10 @@
     color: #FFFFFF;
 
     margin: 0 18px 0 0;
-    width: 50%;
+}
+
+.footer__link:last-child {
+    margin-right: 0;
 }
 
 @media all and (max-width: 735px) {

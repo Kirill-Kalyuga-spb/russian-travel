@@ -1,6 +1,9 @@
-.cover__background {
+.cover__overlay-background {
     width: 100%;
     object-fit: scale-down;
     position: relative;
     z-index: 0;
+
+    background-color: #2A2C2F;
+    opacity: 0.8;
 }

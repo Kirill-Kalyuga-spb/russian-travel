@@ -13,6 +13,13 @@
 
 @media all and (max-width: 768px) {
     .cover__title {
+        font-size: 72px;
+        line-height: 1.09;
+    }
+}
+
+@media all and (max-width: 735px) {
+    .cover__title {
         font-size: 44px;
         line-height: 1.09;
     }

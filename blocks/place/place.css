@@ -13,6 +13,12 @@
     }
 }
 
+@media all and (max-width: 768px) {
+    .place {
+        margin-bottom: 72px;
+    }
+}
+
 @media all and (max-width: 425px) {
     .place {
         margin-bottom: 50px;

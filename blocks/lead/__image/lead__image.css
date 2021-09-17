@@ -1,8 +1,14 @@
 .lead__image {
     display: flex;
     object-fit: cover;
-    max-width: 100%;
+    max-width: 984px;
     margin: 0 auto 8px;
+}
+
+@media all and (max-width: 1024px) {
+    .lead__image {
+        max-width: 100%;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -16,7 +22,6 @@
 @media all and (max-width: 425px) {
     .lead__image {
         max-width: calc(100% + 32px);
-        position: relative;
         left: -16px;
     }
 }
