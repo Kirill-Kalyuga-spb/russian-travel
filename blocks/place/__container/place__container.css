@@ -8,3 +8,9 @@
         flex-direction: column;
     }
 }
+
+@media all and (max-width: 425px) {
+    .place__container {
+        max-width: 100%;
+    }
+}

@@ -6,6 +6,12 @@
     flex-direction: row;
 }
 
+@media all and (max-width: 735px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
 @media all and (max-width: 425px) {
     .footer {
         flex-direction: column;
