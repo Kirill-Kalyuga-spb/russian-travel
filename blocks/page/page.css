@@ -17,7 +17,6 @@
 
 @media all and (max-width: 425px) {
     .page {
-        overflow-y: hidden;
         padding: 0 16px 0;
     }
 }
