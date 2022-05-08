@@ -25,3 +25,10 @@
         margin: 0 auto 32px;
     }
 }
+
+/* @media all and (max-width: 425px) {
+    .place__image {
+        margin-left: 0;
+        margin-right: 0;
+    }
+} */

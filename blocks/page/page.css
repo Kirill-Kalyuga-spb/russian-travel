@@ -8,3 +8,10 @@
     flex-direction: column;
     box-sizing: border-box;
 }
+
+/* @media all and (max-width: 425px) {
+    .page {
+        margin-left: 0;
+        margin-right: 0;
+    }
+} */
