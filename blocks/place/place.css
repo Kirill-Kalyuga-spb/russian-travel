@@ -9,18 +9,24 @@
 
 @media all and (max-width: 1024px) {
     .place {
+        margin-right: 48px;
+        margin-left: 48px;
         max-width: 100%;
     }
 }
 
 @media all and (max-width: 768px) {
     .place {
+        margin-right: 24px;
+        margin-left: 24px;
         margin-bottom: 72px;
     }
 }
 
 @media all and (max-width: 425px) {
     .place {
+        margin-right: 0;
+        margin-left: 0;
         margin-bottom: 50px;
     }
 }

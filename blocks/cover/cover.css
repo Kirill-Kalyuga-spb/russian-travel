@@ -7,10 +7,6 @@
     margin: 0 0 92px;
 }
 
-.cover:hover .cover__overlay-background {
-    opacity: 0.3;
-}
-
 @media all and (max-width: 1024px) {
     .cover {
         height: 640px;

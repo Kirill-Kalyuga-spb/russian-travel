@@ -8,13 +8,7 @@
     text-align: left;
 
     max-width: 100%;
-    margin: 0 100px 92px;
-}
-
-@media all and (max-width: 1024px) {
-    .lead__caption {
-        margin: 0 0 92px;
-    }
+    margin: 0 0 92px;
 }
 
 @media all and (max-width: 768px) {
@@ -25,6 +19,7 @@
 
 @media all and (max-width: 425px) {
     .lead__caption {
+        margin-left: 16px;
         margin-bottom: 64px;
     }
 }

@@ -1,5 +1,5 @@
 .header {
-    margin: 28px 0px 56px;
+    margin: 28px 48px 56px;
     display: flex;
     justify-content: space-between;
 }
@@ -10,8 +10,17 @@
     }
 }
 
+@media all and (max-width: 768px) {
+    .header {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
 @media all and (max-width: 425px) {
     .header {
+        margin-left: 16px;
+        margin-right: 16px;
         margin-bottom: 48px;
         margin-top: 16px;
     }

@@ -25,11 +25,3 @@
         margin: 0 auto 32px;
     }
 }
-
-@media all and (max-width: 425px) {
-    .place__image {
-        max-width: calc(100% + 32px);
-        position: relative;
-        left: -16px;
-    }
-}
